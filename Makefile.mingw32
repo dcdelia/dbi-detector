@@ -1,0 +1,23 @@
+CC = i686-w64-mingw32-gcc
+CFLAGS += -Wall -pedantic -Wextra -fPIC -O3 -D__USE_MINGW_ANSI_STDIO=1
+LDFLAGS += -lm -lpsapi
+
+OBJDIR := obj32
+
+C_SOURCES := $(wildcard *.c)
+C_OBJECTS := $(patsubst %.c, $(OBJDIR)/%.o, $(C_SOURCES))
+
+all: folders evader32
+
+folders:
+	mkdir -p $(OBJDIR)
+
+evader32: $(C_OBJECTS)
+	$(CC) $(CFLAGS) -o evader32.exe $(OBJDIR)/*.o $(LDFLAGS)
+
+$(OBJDIR)/%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f rj32.exe
+	rm -rf $(OBJDIR)/*
