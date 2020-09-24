@@ -1,6 +1,6 @@
-CC = i686-w64-mingw32-gcc
+CC = i686-w64-mingw32-g++
 CFLAGS += -Wall -pedantic -Wextra -fPIC -O3 -D__USE_MINGW_ANSI_STDIO=1
-LDFLAGS += -lm -lpsapi
+LDFLAGS += -static-libgcc -static-libstdc++ -lm -lpsapi  
 
 OBJDIR := obj32
 
@@ -19,5 +19,5 @@ $(OBJDIR)/%.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f rj32.exe
+	rm -f evader32.exe
 	rm -rf $(OBJDIR)/*
