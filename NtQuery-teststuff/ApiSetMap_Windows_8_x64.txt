@@ -1,0 +1,720 @@
+[*] Base 0000007F7C770000, Version 2, total entries in ApiSetMap: 356
+0 - ms-win-advapi32-auth-l1-1-0
+	0 Value	advapi32.dll
+1 - ms-win-advapi32-encryptedfile-l1-1-0
+	0 Value	advapi32.dll
+2 - ms-win-advapi32-eventingcontroller-l1-1-0
+	0 Value	advapi32.dll
+3 - ms-win-advapi32-eventlog-l1-1-0
+	0 Value	advapi32.dll
+4 - ms-win-advapi32-lsa-l1-1-0
+	0 Value	advapi32.dll
+5 - ms-win-advapi32-msi-l1-1-0
+	0 Value	advapi32.dll
+6 - ms-win-advapi32-ntmarta-l1-1-0
+	0 Value	advapi32.dll
+7 - ms-win-advapi32-psm-app-l1-1-0
+	0 Value	twinapi.dll
+8 - ms-win-advapi32-registry-l1-1-0
+	0 Value	advapi32.dll
+9 - ms-win-advapi32-safer-l1-1-0
+	0 Value	advapi32.dll
+10 - ms-win-advapi32-shutdown-l1-1-0
+	0 Value	advapi32.dll
+11 - ms-win-appmodel-identity-l1-1-0
+	0 Value	kernel32.dll
+12 - ms-win-appmodel-runtime-l1-1-0
+	0 Value	kernel32.dll
+13 - ms-win-appmodel-state-l1-1-0
+	0 Value	kernel32.dll
+14 - ms-win-authz-claimpolicies-l1-1-0
+	0 Value	authz.dll
+15 - ms-win-authz-context-l1-1-0
+	0 Value	authz.dll
+16 - ms-win-authz-remote-l1-1-0
+	0 Value	logoncli.dll
+17 - ms-win-base-bootconfig-l1-1-0
+	0 Value	advapi32.dll
+18 - ms-win-base-util-l1-1-0
+	0 Value	advapi32.dll
+19 - ms-win-biometrics-winbio-l1-1-0
+	0 Value	winbio.dll
+20 - ms-win-bluetooth-deviceassociation-l1-1-0
+	0 Value	deviceassociation.dll
+21 - ms-win-branding-winbrand-l1-1-0
+	0 Value	winbrand.dll
+22 - ms-win-cluster-clusapi-l1-1-0
+	0 Value	clusapi.dll
+23 - ms-win-cluster-resutils-l1-1-0
+	0 Value	resutils.dll
+24 - ms-win-cmd-util-l1-1-0
+	0 Value	cmdext.dll
+25 - ms-win-cng-rng-l1-1-0
+	0 Value	bcryptprimitives.dll
+26 - ms-win-com-clbcatq-l1-1-0
+	0 Value	clbcatq.dll
+27 - ms-win-com-ole32-l1-1-0
+	0 Value	ole32.dll
+28 - ms-win-com-psmregister-l1-1-0
+	0 Value	advapi32.dll
+29 - ms-win-core-apiquery-l1-1-0
+	0 Value	ntdll.dll
+30 - ms-win-core-appcompat-l1-1-0
+	0 Value	kernelbase.dll
+31 - ms-win-core-appinit-l1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+32 - ms-win-core-atoms-l1-1-0
+	0 Value	kernel32.dll
+33 - ms-win-core-bem-l1-1-0
+	0 Value	kernelbase.dll
+34 - ms-win-core-bicltapi-l1-1-0
+	0 Value	bi.dll
+35 - ms-win-core-biplmapi-l1-1-0
+	0 Value	twinapi.dll
+36 - ms-win-core-biptcltapi-l1-1-0
+	0 Value	twinapi.dll
+37 - ms-win-core-com-l1-1-0
+	0 Value	combase.dll
+38 - ms-win-core-com-private-l1-1-0
+	0 Value	combase.dll
+39 - ms-win-core-comm-l1-1-0
+	0 Value	kernelbase.dll
+40 - ms-win-core-console-l1-1-0
+	0 Value	kernelbase.dll
+41 - ms-win-core-console-l2-1-0
+	0 Value	kernelbase.dll
+42 - ms-win-core-crt-l1-1-0
+	0 Value	ntdll.dll
+43 - ms-win-core-crt-l2-1-0
+	0 Value	kernelbase.dll
+44 - ms-win-core-datetime-l1-1-0
+	0 Value	kernelbase.dll
+45 - ms-win-core-datetime-l1-1-1
+	0 Value	kernelbase.dll
+46 - ms-win-core-debug-l1-1-0
+	0 Value	kernelbase.dll
+47 - ms-win-core-debug-l1-1-1
+	0 Value	kernelbase.dll
+48 - ms-win-core-delayload-l1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+49 - ms-win-core-delayload-l1-1-1
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+50 - ms-win-core-errorhandling-l1-1-0
+	0 Value	kernelbase.dll
+51 - ms-win-core-errorhandling-l1-1-1
+	0 Value	kernelbase.dll
+52 - ms-win-core-fibers-l1-1-0
+	0 Value	kernelbase.dll
+53 - ms-win-core-fibers-l1-1-1
+	0 Value	kernelbase.dll
+54 - ms-win-core-fibers-l2-1-0
+	0 Value	kernel32.dll
+55 - ms-win-core-file-l1-1-0
+	0 Value	kernelbase.dll
+56 - ms-win-core-file-l1-1-1
+	0 Value	kernelbase.dll
+57 - ms-win-core-file-l1-2-0
+	0 Value	kernelbase.dll
+58 - ms-win-core-file-l2-1-0
+	0 Value	kernelbase.dll
+59 - ms-win-core-firmware-l1-1-0
+	0 Value	kernel32.dll
+60 - ms-win-core-handle-l1-1-0
+	0 Value	kernelbase.dll
+61 - ms-win-core-heap-l1-1-0
+	0 Value	kernelbase.dll
+62 - ms-win-core-heap-l1-2-0
+	0 Value	kernelbase.dll
+63 - ms-win-core-heap-obsolete-l1-1-0
+	0 Value	kernel32.dll
+64 - ms-win-core-interlocked-l1-1-0
+	0 Value	kernelbase.dll
+65 - ms-win-core-interlocked-l1-1-1
+	0 Value	kernelbase.dll
+66 - ms-win-core-interlocked-l1-2-0
+	0 Value	kernelbase.dll
+67 - ms-win-core-io-l1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+68 - ms-win-core-io-l1-1-1
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+69 - ms-win-core-job-l1-1-0
+	0 Value	kernelbase.dll
+70 - ms-win-core-job-l2-1-0
+	0 Value	kernel32.dll
+71 - ms-win-core-kernel32-legacy-l1-1-0
+	0 Value	kernel32.dll
+72 - ms-win-core-kernel32-private-l1-1-0
+	0 Value	kernel32.dll
+73 - ms-win-core-libraryloader-l1-1-0
+	0 Value	kernelbase.dll
+74 - ms-win-core-libraryloader-l1-1-1
+	0 Value	kernelbase.dll
+75 - ms-win-core-localization-l1-1-0
+	0 Value	kernelbase.dll
+76 - ms-win-core-localization-l1-2-0
+	0 Value	kernelbase.dll
+77 - ms-win-core-localization-l2-1-0
+	0 Value	kernelbase.dll
+78 - ms-win-core-localization-obsolete-l1-1-0
+	0 Value	kernelbase.dll
+79 - ms-win-core-localization-private-l1-1-0
+	0 Value	kernelbase.dll
+80 - ms-win-core-localregistry-l1-1-0
+	0 Value	kernelbase.dll
+81 - ms-win-core-memory-l1-1-0
+	0 Value	kernelbase.dll
+82 - ms-win-core-memory-l1-1-1
+	0 Value	kernelbase.dll
+83 - ms-win-core-misc-l1-1-0
+	0 Value	kernelbase.dll
+84 - ms-win-core-multipleproviderrouter-l1-1-0
+	0 Value	mpr.dll
+85 - ms-win-core-namedpipe-l1-1-0
+	0 Value	kernelbase.dll
+86 - ms-win-core-namedpipe-l1-2-0
+	0 Value	kernelbase.dll
+87 - ms-win-core-namespace-l1-1-0
+	0 Value	kernelbase.dll
+88 - ms-win-core-normalization-l1-1-0
+	0 Value	kernelbase.dll
+89 - ms-win-core-path-l1-1-0
+	0 Value	kernelbase.dll
+90 - ms-win-core-privateprofile-l1-1-0
+	0 Value	kernel32.dll
+91 - ms-win-core-processenvironment-l1-1-0
+	0 Value	kernelbase.dll
+92 - ms-win-core-processenvironment-l1-1-1
+	0 Value	kernelbase.dll
+93 - ms-win-core-processenvironment-l1-2-0
+	0 Value	kernelbase.dll
+94 - ms-win-core-processsecurity-l1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+95 - ms-win-core-processthreads-l1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+96 - ms-win-core-processthreads-l1-1-1
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+97 - ms-win-core-processtopology-l1-1-0
+	0 Value	kernelbase.dll
+98 - ms-win-core-processtopology-obsolete-l1-1-0
+	0 Value	kernel32.dll
+99 - ms-win-core-profile-l1-1-0
+	0 Value	kernelbase.dll
+100 - ms-win-core-psapi-ansi-l1-1-0
+	0 Value	kernelbase.dll
+101 - ms-win-core-psapi-l1-1-0
+	0 Value	kernelbase.dll
+102 - ms-win-core-psapi-obsolete-l1-1-0
+	0 Value	kernelbase.dll
+103 - ms-win-core-psapiansi-l1-1-0
+	0 Value	kernelbase.dll
+104 - ms-win-core-psm-app-l1-1-0
+	0 Value	twinapi.dll
+105 - ms-win-core-psm-info-l1-1-0
+	0 Value	appsruprov.dll
+106 - ms-win-core-psm-plm-l1-1-0
+	0 Value	twinapi.dll
+107 - ms-win-core-realtime-l1-1-0
+	0 Value	kernelbase.dll
+108 - ms-win-core-registry-l1-1-0
+	0 Value	kernelbase.dll
+109 - ms-win-core-registry-l2-1-0
+	0 Value	advapi32.dll
+110 - ms-win-core-registry-private-l1-1-0
+	0 Value	advapi32.dll
+111 - ms-win-core-registryuserspecific-l1-1-0
+	0 Value	kernelbase.dll
+112 - ms-win-core-rtlsupport-l1-1-0
+	0 Value	ntdll.dll
+113 - ms-win-core-rtlsupport-l1-1-1
+	0 Value	ntdll.dll
+114 - ms-win-core-rtlsupport-l1-2-0
+	0 Value	ntdll.dll
+115 - ms-win-core-shlwapi-legacy-l1-1-0
+	0 Value	kernelbase.dll
+116 - ms-win-core-shlwapi-obsolete-l1-1-0
+	0 Value	kernelbase.dll
+117 - ms-win-core-shutdown-l1-1-0
+	0 Value	advapi32.dll
+118 - ms-win-core-sidebyside-l1-1-0
+	0 Value	kernelbase.dll
+119 - ms-win-core-string-l1-1-0
+	0 Value	kernelbase.dll
+120 - ms-win-core-string-l2-1-0
+	0 Value	kernelbase.dll
+121 - ms-win-core-string-obsolete-l1-1-0
+	0 Value	kernel32.dll
+122 - ms-win-core-stringansi-l1-1-0
+	0 Value	kernelbase.dll
+123 - ms-win-core-stringloader-l1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+124 - ms-win-core-synch-l1-1-0
+	0 Value	kernelbase.dll
+125 - ms-win-core-synch-l1-1-1
+	0 Value	kernelbase.dll
+126 - ms-win-core-synch-l1-2-0
+	0 Value	kernelbase.dll
+127 - ms-win-core-sysinfo-l1-1-0
+	0 Value	kernelbase.dll
+128 - ms-win-core-sysinfo-l1-1-1
+	0 Value	kernelbase.dll
+129 - ms-win-core-sysinfo-l1-2-0
+	0 Value	kernelbase.dll
+130 - ms-win-core-systemtopology-l1-1-0
+	0 Value	kernelbase.dll
+131 - ms-win-core-threadpool-l1-1-0
+	0 Value	kernelbase.dll
+132 - ms-win-core-threadpool-l1-2-0
+	0 Value	kernelbase.dll
+133 - ms-win-core-threadpool-legacy-l1-1-0
+	0 Value	kernelbase.dll
+134 - ms-win-core-threadpool-private-l1-1-0
+	0 Value	kernelbase.dll
+135 - ms-win-core-timezone-l1-1-0
+	0 Value	kernelbase.dll
+136 - ms-win-core-timezone-private-l1-1-0
+	0 Value	kernelbase.dll
+137 - ms-win-core-toolhelp-l1-1-0
+	0 Value	kernel32.dll
+138 - ms-win-core-ums-l1-1-0
+	0 Value	kernel32.dll
+139 - ms-win-core-url-l1-1-0
+	0 Value	kernelbase.dll
+140 - ms-win-core-util-l1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+141 - ms-win-core-version-l1-1-0
+	0 Value	kernelbase.dll
+142 - ms-win-core-version-private-l1-1-0
+	0 Value	kernelbase.dll
+143 - ms-win-core-versionansi-l1-1-0
+	0 Value	kernelbase.dll
+144 - ms-win-core-windowserrorreporting-l1-1-0
+	0 Value	kernelbase.dll
+145 - ms-win-core-winrt-error-l1-1-0
+	0 Value	combase.dll
+146 - ms-win-core-winrt-errorprivate-l1-1-0
+	0 Value	combase.dll
+147 - ms-win-core-winrt-l1-1-0
+	0 Value	combase.dll
+148 - ms-win-core-winrt-propertysetprivate-l1-1-0
+	0 Value	wintypes.dll
+149 - ms-win-core-winrt-registration-l1-1-0
+	0 Value	combase.dll
+150 - ms-win-core-winrt-robuffer-l1-1-0
+	0 Value	wintypes.dll
+151 - ms-win-core-winrt-roparameterizediid-l1-1-0
+	0 Value	combase.dll
+152 - ms-win-core-winrt-string-l1-1-0
+	0 Value	combase.dll
+153 - ms-win-core-wow64-l1-1-0
+	0 Value	kernelbase.dll
+154 - ms-win-core-xstate-l1-1-0
+	0 Value	ntdll.dll
+155 - ms-win-core-xstate-l1-1-1
+	0 Value	ntdll.dll
+156 - ms-win-coreui-l1-1-0
+157 - ms-win-devices-config-l1-1-0
+	0 Value	cfgmgr32.dll
+158 - ms-win-devices-query-l1-1-0
+	0 Value	cfgmgr32.dll
+159 - ms-win-devices-swdevice-l1-1-0
+	0 Value	cfgmgr32.dll
+160 - ms-win-domainjoin-netjoin-l1-1-0
+	0 Value	netjoin.dll
+161 - ms-win-downlevel-advapi32-l1-1-0
+	0 Value	kernelbase.dll
+162 - ms-win-downlevel-advapi32-l2-1-0
+	0 Value	sechost.dll
+163 - ms-win-downlevel-normaliz-l1-1-0
+	0 Value	kernelbase.dll
+164 - ms-win-downlevel-ole32-l1-1-0
+	0 Value	combase.dll
+165 - ms-win-downlevel-shell32-l1-1-0
+	0 Value	shcore.dll
+166 - ms-win-downlevel-shlwapi-l1-1-0
+	0 Value	kernelbase.dll
+167 - ms-win-downlevel-shlwapi-l2-1-0
+	0 Value	shcore.dll
+168 - ms-win-downlevel-user32-l1-1-0
+	0 Value	kernelbase.dll
+169 - ms-win-downlevel-version-l1-1-0
+	0 Value	kernelbase.dll
+170 - ms-win-dx-d3dkmt-l1-1-0
+	0 Value	gdi32.dll
+171 - ms-win-eventing-classicprovider-l1-1-0
+	0 Value	kernelbase.dll
+172 - ms-win-eventing-consumer-l1-1-0
+	0 Value	kernelbase.dll
+173 - ms-win-eventing-controller-l1-1-0
+	0 Value	kernelbase.dll
+174 - ms-win-eventing-legacy-l1-1-0
+	0 Value	advapi32.dll
+175 - ms-win-eventing-obsolete-l1-1-0
+	0 Value	kernelbase.dll
+176 - ms-win-eventing-provider-l1-1-0
+	0 Value	kernelbase.dll
+177 - ms-win-eventlog-legacy-l1-1-0
+	0 Value	advapi32.dll
+178 - ms-win-eventlog-private-l1-1-0
+	0 Value	advapi32.dll
+179 - ms-win-firewallapi-webproxy-l1-1-0
+	0 Value	firewallapi.dll
+180 - ms-win-fs-clfs-l1-1-0
+	0 Value	clfs.sys
+181 - ms-win-fsutilext-ifsutil-l1-1-0
+	0 Value	fsutilext.dll
+182 - ms-win-fsutilext-ulib-l1-1-0
+	0 Value	fsutilext.dll
+183 - ms-win-gdi-dc-create-l1-1-0
+	0 Value	gdi32.dll
+184 - ms-win-gdi-dc-l1-1-0
+	0 Value	gdi32.dll
+185 - ms-win-gdi-devcaps-l1-1-0
+	0 Value	gdi32.dll
+186 - ms-win-gdi-draw-l1-1-0
+	0 Value	gdi32.dll
+187 - ms-win-gdi-font-l1-1-0
+	0 Value	gdi32.dll
+188 - ms-win-gdi-ie-rgn-l1-1-0
+	0 Value	gdi32.dll
+189 - ms-win-gdi-metafile-l1-1-0
+	0 Value	gdi32.dll
+190 - ms-win-gdi-path-l1-1-0
+	0 Value	gdi32.dll
+191 - ms-win-gdi-render-l1-1-0
+	0 Value	gdi32.dll
+192 - ms-win-gdi-rgn-l1-1-0
+	0 Value	gdi32.dll
+193 - ms-win-gdi-wcs-l1-1-0
+	0 Value	gdi32.dll
+194 - ms-win-gpapi-grouppolicy-l1-1-0
+	0 Value	gpapi.dll
+195 - ms-win-gui-uxinit-l1-1-0
+	0 Value	uxinit.dll
+196 - ms-win-http-time-l1-1-0
+	0 Value	kernelbase.dll
+197 - ms-win-input-ie-interactioncontext-l1-1-0
+	0 Value	ninput.dll
+198 - ms-win-kernel32-appcompat-l1-1-0
+	0 Value	kernel32.dll
+199 - ms-win-kernel32-datetime-l1-1-0
+	0 Value	kernel32.dll
+200 - ms-win-kernel32-errorhandling-l1-1-0
+	0 Value	kernel32.dll
+201 - ms-win-kernel32-file-l1-1-0
+	0 Value	kernel32.dll
+202 - ms-win-kernel32-package-current-l1-1-0
+	0 Value	kernel32.dll
+203 - ms-win-kernel32-package-l1-1-0
+	0 Value	kernel32.dll
+204 - ms-win-kernel32-registry-l1-1-0
+	0 Value	kernel32.dll
+205 - ms-win-kernel32-sidebyside-l1-1-0
+	0 Value	kernel32.dll
+206 - ms-win-kernel32-transacted-l1-1-0
+	0 Value	kernel32.dll
+207 - ms-win-kernel32-windowserrorreporting-l1-1-0
+	0 Value	kernel32.dll
+208 - ms-win-kernelbase-processthread-l1-1-0
+	0 Value	kernel32.dll
+209 - ms-win-legacy-shlwapi-l1-1-0
+	0 Value	kernelbase.dll
+210 - ms-win-mf-winmm-l1-1-0
+	0 Value	winmmbase.dll
+211 - ms-win-mm-joystick-l1-1-0
+	0 Value	winmmbase.dll
+212 - ms-win-mm-mci-l1-1-0
+	0 Value	winmm.dll
+213 - ms-win-mm-misc-l1-1-0
+	0 Value	winmmbase.dll
+214 - ms-win-mm-misc-l2-1-0
+	0 Value	winmm.dll
+215 - ms-win-mm-mme-l1-1-0
+	0 Value	winmmbase.dll
+216 - ms-win-mm-msacm-l1-1-0
+	0 Value	msacm32.dll
+217 - ms-win-mm-pehelper-l1-1-0
+	0 Value	mf.dll
+218 - ms-win-mm-playsound-l1-1-0
+	0 Value	winmm.dll
+219 - ms-win-mm-time-l1-1-0
+	0 Value	kernel32.dll
+220 - ms-win-mm-wmdrmsdk-l1-1-0
+	0 Value	wmdrmsdk.dll
+221 - ms-win-mpr-multipleproviderrouter-l1-1-0
+	0 Value	mprext.dll
+222 - ms-win-mrmcorer-resmanager-l1-1-0
+	0 Value	mrmcorer.dll
+223 - ms-win-msiltcfg-msi-l1-1-0
+	0 Value	msiltcfg.dll
+224 - ms-win-net-isolation-l1-1-0
+	0 Value	firewallapi.dll
+225 - ms-win-networking-winipsec-l1-1-0
+	0 Value	winipsec.dll
+226 - ms-win-newdev-config-l1-1-0
+	0 Value	newdev.dll
+227 - ms-win-ntdsa-activedirectoryserver-l1-1-0
+	0 Value	ntdsa.dll
+228 - ms-win-ntdsapi-activedirectoryclient-l1-1-0
+	0 Value	ntdsapi.dll
+229 - ms-win-ntos-ksecurity-l1-1-0
+230 - ms-win-ntos-ksigningpolicy-l1-1-0
+231 - ms-win-ntos-tm-l1-1-0
+	0 Value	tm.sys
+232 - ms-win-ntuser-caret-l1-1-0
+	0 Value	user32.dll
+233 - ms-win-ntuser-dc-access-ext-l1-1-0
+	0 Value	user32.dll
+234 - ms-win-ntuser-dc-access-l1-1-0
+	0 Value	user32.dll
+235 - ms-win-ntuser-dialogbox-l1-1-0
+	0 Value	user32.dll
+236 - ms-win-ntuser-draw-l1-1-0
+	0 Value	user32.dll
+237 - ms-win-ntuser-gui-l1-1-0
+	0 Value	user32.dll
+238 - ms-win-ntuser-ie-caret-l1-1-0
+	0 Value	user32.dll
+239 - ms-win-ntuser-ie-clipboard-l1-1-0
+	0 Value	user32.dll
+240 - ms-win-ntuser-ie-gui-l1-1-0
+	0 Value	user32.dll
+241 - ms-win-ntuser-ie-keyboard-l1-1-0
+	0 Value	user32.dll
+242 - ms-win-ntuser-ie-message-l1-1-0
+	0 Value	user32.dll
+243 - ms-win-ntuser-ie-mouse-l1-1-0
+	0 Value	user32.dll
+244 - ms-win-ntuser-ie-window-l1-1-0
+	0 Value	user32.dll
+245 - ms-win-ntuser-ie-wmpointer-l1-1-0
+	0 Value	user32.dll
+246 - ms-win-ntuser-keyboard-l1-1-0
+	0 Value	user32.dll
+247 - ms-win-ntuser-menu-l1-1-0
+	0 Value	user32.dll
+248 - ms-win-ntuser-message-l1-1-0
+	0 Value	user32.dll
+249 - ms-win-ntuser-misc-l1-1-0
+	0 Value	user32.dll
+250 - ms-win-ntuser-mouse-l1-1-0
+	0 Value	user32.dll
+251 - ms-win-ntuser-powermanagement-l1-1-0
+	0 Value	user32.dll
+252 - ms-win-ntuser-private-l1-1-0
+	0 Value	user32.dll
+253 - ms-win-ntuser-rectangle-ext-l1-1-0
+	0 Value	user32.dll
+254 - ms-win-ntuser-rectangle-l1-1-0
+	0 Value	user32.dll
+255 - ms-win-ntuser-string-l1-1-0
+	0 Value	user32.dll
+256 - ms-win-ntuser-synch-l1-1-0
+	0 Value	user32.dll
+257 - ms-win-ntuser-sysparams-ext-l1-1-0
+	0 Value	user32.dll
+258 - ms-win-ntuser-sysparams-l1-1-0
+	0 Value	user32.dll
+259 - ms-win-ntuser-uicontext-l1-1-0
+	0 Value	user32.dll
+260 - ms-win-ntuser-window-l1-1-0
+	0 Value	user32.dll
+261 - ms-win-ntuser-windowclass-l1-1-0
+	0 Value	user32.dll
+262 - ms-win-ntuser-windowstation-l1-1-0
+	0 Value	user32.dll
+263 - ms-win-obsolete-localization-l1-1-0
+	0 Value	kernelbase.dll
+264 - ms-win-obsolete-psapi-l1-1-0
+	0 Value	kernelbase.dll
+265 - ms-win-obsolete-shlwapi-l1-1-0
+	0 Value	kernelbase.dll
+266 - ms-win-ole32-bindctx-l1-1-0
+	0 Value	ole32.dll
+267 - ms-win-ole32-clipboard-ie-l1-1-0
+	0 Value	ole32.dll
+268 - ms-win-ole32-ie-ext-l1-1-0
+	0 Value	ole32.dll
+269 - ms-win-ole32-ie-l1-1-0
+	0 Value	ole32.dll
+270 - ms-win-ole32-oleautomation-l1-1-0
+	0 Value	ole32.dll
+271 - ms-win-power-base-l1-1-0
+	0 Value	powrprof.dll
+272 - ms-win-power-setting-l1-1-0
+	0 Value	powrprof.dll
+273 - ms-win-printer-winspool-l1-1-0
+	0 Value	winspool.drv
+274 - ms-win-profile-profsvc-l1-1-0
+	0 Value	profsvcext.dll
+275 - ms-win-profile-userenv-l1-1-0
+	0 Value	profext.dll
+276 - ms-win-ras-rasapi32-l1-1-0
+	0 Value	rasapi32.dll
+277 - ms-win-ras-rasdlg-l1-1-0
+	0 Value	rasdlg.dll
+278 - ms-win-ras-rasman-l1-1-0
+	0 Value	rasman.dll
+279 - ms-win-ras-tapi32-l1-1-0
+	0 Value	tapi32.dll
+280 - ms-win-ro-typeresolution-l1-1-0
+	0 Value	wintypes.dll
+281 - ms-win-rometadata-dispenser-l1-1-0
+	0 Value	rometadata.dll
+282 - ms-win-samsrv-accountstore-l1-1-0
+	0 Value	samsrv.dll
+283 - ms-win-scesrv-server-l1-1-0
+	0 Value	scesrv.dll
+284 - ms-win-secur32-translatename-l1-1-0
+	0 Value	secur32.dll
+285 - ms-win-security-activedirectoryclient-l1-1-0
+	0 Value	kernelbase.dll
+286 - ms-win-security-appcontainer-l1-1-0
+	0 Value	kernelbase.dll
+287 - ms-win-security-audit-l1-1-0
+	0 Value	sechost.dll
+288 - ms-win-security-base-l1-1-0
+	0 Value	kernelbase.dll
+289 - ms-win-security-base-l1-1-1
+	0 Value	kernelbase.dll
+290 - ms-win-security-base-l1-2-0
+	0 Value	kernelbase.dll
+291 - ms-win-security-base-private-l1-1-0
+	0 Value	kernelbase.dll
+292 - ms-win-security-credentials-l1-1-0
+	0 Value	sechost.dll
+293 - ms-win-security-credentials-l2-1-0
+	0 Value	sechost.dll
+294 - ms-win-security-credui-l1-1-0
+	0 Value	credui.dll
+295 - ms-win-security-cryptui-l1-1-0
+	0 Value	cryptui.dll
+296 - ms-win-security-grouppolicy-l1-1-0
+	0 Value	kernelbase.dll
+297 - ms-win-security-kerberos-l1-1-0
+	0 Value	kerberos.dll
+298 - ms-win-security-lsalookup-l1-1-0
+	0 Value	sechost.dll
+299 - ms-win-security-lsalookup-l1-1-1
+	0 Value	sechost.dll
+300 - ms-win-security-lsalookup-l2-1-0
+	0 Value	advapi32.dll
+301 - ms-win-security-lsapolicy-l1-1-0
+	0 Value	sechost.dll
+302 - ms-win-security-provider-l1-1-0
+	0 Value	advapi32.dll
+303 - ms-win-security-sddl-ansi-l1-1-0
+	0 Value	advapi32.dll
+304 - ms-win-security-sddl-l1-1-0
+	0 Value	sechost.dll
+305 - ms-win-security-sddlparsecond-l1-1-0
+	0 Value	sechost.dll
+306 - ms-win-security-systemfunctions-l1-1-0
+	0 Value	advapi32.dll
+307 - ms-win-security-trustee-l1-1-0
+	0 Value	advapi32.dll
+308 - ms-win-security-vaultcli-l1-1-0
+	0 Value	vaultcli.dll
+309 - ms-win-service-core-l1-1-0
+	0 Value	sechost.dll
+310 - ms-win-service-core-l1-1-1
+	0 Value	sechost.dll
+311 - ms-win-service-management-l1-1-0
+	0 Value	sechost.dll
+312 - ms-win-service-management-l2-1-0
+	0 Value	sechost.dll
+313 - ms-win-service-private-l1-1-0
+	0 Value	sechost.dll
+314 - ms-win-service-winsvc-l1-1-0
+	0 Value	sechost.dll
+315 - ms-win-service-winsvc-l1-2-0
+	0 Value	sechost.dll
+316 - ms-win-session-userinit-l1-1-0
+	0 Value	userinitext.dll
+317 - ms-win-session-wininit-l1-1-0
+	0 Value	wininitext.dll
+318 - ms-win-session-winsta-l1-1-0
+	0 Value	winsta.dll
+319 - ms-win-session-wtsapi32-l1-1-0
+	0 Value	wtsapi32.dll
+320 - ms-win-setupapi-cfgmgr32local-l1-1-0
+	0 Value	setupapi.dll
+321 - ms-win-setupapi-cfgmgr32remote-l1-1-0
+	0 Value	setupapi.dll
+322 - ms-win-setupapi-classinstallers-l1-1-0
+	0 Value	setupapi.dll
+323 - ms-win-setupapi-inf-l1-1-0
+	0 Value	setupapi.dll
+324 - ms-win-setupapi-logging-l1-1-0
+	0 Value	setupapi.dll
+325 - ms-win-shcore-comhelpers-l1-1-0
+	0 Value	shcore.dll
+326 - ms-win-shcore-obsolete-l1-1-0
+	0 Value	shcore.dll
+327 - ms-win-shcore-registry-l1-1-0
+	0 Value	shcore.dll
+328 - ms-win-shcore-scaling-l1-1-0
+	0 Value	shcore.dll
+329 - ms-win-shcore-stream-l1-1-0
+	0 Value	shcore.dll
+330 - ms-win-shcore-stream-winrt-l1-1-0
+	0 Value	shcore.dll
+331 - ms-win-shcore-sysinfo-l1-1-0
+	0 Value	shcore.dll
+332 - ms-win-shcore-thread-l1-1-0
+	0 Value	shcore.dll
+333 - ms-win-shcore-unicodeansi-l1-1-0
+	0 Value	shcore.dll
+334 - ms-win-shell-propsys-l1-1-0
+	0 Value	propsys.dll
+335 - ms-win-shell-shell32-l1-1-0
+	0 Value	shell32.dll
+336 - ms-win-shell-shellcom-l1-1-0
+	0 Value	kernelbase.dll
+337 - ms-win-shell-shellfolders-l1-1-0
+	0 Value	kernelbase.dll
+338 - ms-win-shell-shlwapi-l1-1-0
+	0 Value	shlwapi.dll
+339 - ms-win-shell32-shellcom-l1-1-0
+	0 Value	shell32.dll
+340 - ms-win-shell32-shellfolders-l1-1-0
+	0 Value	shell32.dll
+341 - ms-win-shlwapi-ie-l1-1-0
+	0 Value	shlwapi.dll
+342 - ms-win-smbshare-sscore-l1-1-0
+	0 Value	sscoreext.dll
+343 - ms-win-spinf-inf-l1-1-0
+	0 Value	spinf.dll
+344 - ms-win-sxs-oleautomation-l1-1-0
+	0 Value	sxs.dll
+345 - ms-win-umpoext-umpo-l1-1-0
+	0 Value	umpoext.dll
+346 - ms-win-webio-pal-l1-1-0
+	0 Value	webio.dll
+347 - ms-win-wer-reporting-l1-1-0
+	0 Value	wer.dll
+348 - ms-win-wevtapi-eventlog-l1-1-0
+	0 Value	wevtapi.dll
+349 - ms-win-winhttp-pal-l1-1-0
+	0 Value	winhttp.dll
+350 - ms-win-wininet-pal-l1-1-0
+	0 Value	wininet.dll
+351 - ms-win-wlan-grouppolicy-l1-1-0
+	0 Value	wlgpclnt.dll
+352 - ms-win-wlan-onexui-l1-1-0
+	0 Value	onexui.dll
+353 - ms-win-wlan-scard-l1-1-0
+	0 Value	winscard.dll
+354 - ms-win-wsclient-devlicense-l1-1-0
+	0 Value	wsclient.dll
+355 - ms-win-wwan-wwapi-l1-1-0
+	0 Value	wwapi.dll

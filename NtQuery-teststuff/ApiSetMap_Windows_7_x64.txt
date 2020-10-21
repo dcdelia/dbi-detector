@@ -1,0 +1,78 @@
+[*] Base 000007FEFF1D0000, Version 2, total entries in ApiSetMap: 35
+0 - MS-Win-Core-Console-L1-1-0
+	0 Value	kernel32.dll
+1 - MS-Win-Core-DateTime-L1-1-0
+	0 Value	kernel32.dll
+2 - MS-Win-Core-Debug-L1-1-0
+	0 Value	kernelbase.dll
+3 - MS-Win-Core-DelayLoad-L1-1-0
+	0 Value	kernel32.dll
+4 - MS-Win-Core-ErrorHandling-L1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+5 - MS-Win-Core-Fibers-L1-1-0
+	0 Value	kernelbase.dll
+6 - MS-Win-Core-File-L1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+7 - MS-Win-Core-Handle-L1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+8 - MS-Win-Core-Heap-L1-1-0
+	0 Value	kernelbase.dll
+9 - MS-Win-Core-Interlocked-L1-1-0
+	0 Value	kernelbase.dll
+10 - MS-Win-Core-IO-L1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+11 - MS-Win-Core-LibraryLoader-L1-1-0
+	0 Value	kernelbase.dll
+12 - MS-Win-Core-Localization-L1-1-0
+	0 Value	kernelbase.dll
+13 - MS-Win-Core-LocalRegistry-L1-1-0
+	0 Value	kernel32.dll
+14 - MS-Win-Core-Memory-L1-1-0
+	0 Value	kernelbase.dll
+15 - MS-Win-Core-Misc-L1-1-0
+	0 Value	kernelbase.dll
+16 - MS-Win-Core-NamedPipe-L1-1-0
+	0 Value	kernelbase.dll
+17 - MS-Win-Core-ProcessEnvironment-L1-1-0
+	0 Value	kernelbase.dll
+18 - MS-Win-Core-ProcessThreads-L1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+19 - MS-Win-Core-Profile-L1-1-0
+	0 Value	kernelbase.dll
+20 - MS-Win-Core-RtlSupport-L1-1-0
+	0 Value	ntdll.dll
+21 - MS-Win-Core-String-L1-1-0
+	0 Value	kernelbase.dll
+22 - MS-Win-Core-Synch-L1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+23 - MS-Win-Core-SysInfo-L1-1-0
+	0 Value	kernelbase.dll
+24 - MS-Win-Core-ThreadPool-L1-1-0
+	0 Value	kernelbase.dll
+25 - MS-Win-Core-UMS-L1-1-0
+	0 Value	kernel32.dll
+26 - MS-Win-Core-Util-L1-1-0
+	0 Value	kernel32.dll
+	1 Name	kernel32.dll -> Value	kernelbase.dll
+27 - MS-Win-Core-XState-L1-1-0
+	0 Value	ntdll.dll
+28 - MS-Win-Security-Base-L1-1-0
+	0 Value	kernelbase.dll
+29 - MS-Win-Security-LSALookup-L1-1-0
+	0 Value	sechost.dll
+30 - MS-Win-Security-SDDL-L1-1-0
+	0 Value	sechost.dll
+31 - MS-Win-Service-Core-L1-1-0
+	0 Value	sechost.dll
+32 - MS-Win-Service-Management-L1-1-0
+	0 Value	sechost.dll
+33 - MS-Win-Service-Management-L2-1-0
+	0 Value	sechost.dll
+34 - MS-Win-Service-winsvc-L1-1-0
+	0 Value	sechost.dll
