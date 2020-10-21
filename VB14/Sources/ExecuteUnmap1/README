@@ -1,0 +1,10 @@
+In this sample, a simple basic block is first created and then
+the underlying page is remapped as PAGE_NOACCESS. The idea
+is that the block should be invalidated so that when its
+execution is attempted for the second time, it is not found
+in the block cache and needs to be recreated, this time
+taking the new page protection into account.
+
+Both Pin and DR fail, because they apparently do not
+invalidate the block or just do not pay attention to
+the new protection of the page.

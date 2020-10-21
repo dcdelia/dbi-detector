@@ -1,0 +1,13 @@
+This case is a modified ExecuteUnmap1 sample. The difference
+is that the buffer for the block is directly allocated as
+PAGE_EXECUTE_READWRITE. After the block is created, the page
+is again remapped as PAGE_NOACCESS.
+
+The idea is that the block should be invalidated so that when its
+execution is attempted for the second time, it is not found
+in the block cache and needs to be recreated, this time
+taking the new page protection into account.
+
+DR continues to fail in the same way as in the ExecuteUnmap1 case,
+but Pin behaves differently. The guest exits with ACCESS_VIOLATION.
+

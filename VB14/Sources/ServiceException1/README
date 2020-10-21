@@ -1,0 +1,9 @@
+This sample demonstrates the inherent weakness of all DBT tools
+that detect memory writes based on write-protecting and
+service exceptions.
+
+DR and SF2/nounmap fail as expected.
+SF2/checksonly passes as expected.
+
+Pin passes, which almost certainly means it uses memory checks. Or that
+it virtualizes guest stack.

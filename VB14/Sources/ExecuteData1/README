@@ -1,0 +1,2 @@
+This sample shows that neither Pin or DR can handle basic DEP.
+Sf2 needs to be run with '-p sys.dep on' argument to pass this test.

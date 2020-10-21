@@ -1,0 +1,8 @@
+The idea beyond this sample is that SMC handling must not lead to forgetting a PAGE_GUARD protection
+associated with a block.
+
+Note: both Pin and DR seem to have difficulties with handling PAGE_GUARD protection even without
+SMC. So in a way, this sample is already unnecessarily complex for what they can do.
+
+Pin: Fails, because EXCEPTION_GUARD_PAGE never comes.
+DR: Crashes.

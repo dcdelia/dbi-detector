@@ -1,0 +1,7 @@
+This sample tests whether the DBT framework can handle addition
+of the PAGE_GUARD protection to a PAGE_EXECUTE_READ page that
+already holds a block.
+
+Both Pin and DR fail because the EXCEPTION_GUARD_PAGE is not
+generated, most likely because the original block is not
+invalidated when the page protection changes.

@@ -1,0 +1,8 @@
+This sample demonstrates the complexity of virtualizing the instruction pointer
+properly within the DBT framework. Instructions like FXSAVE, FNSAVE, FNSTENV
+save FPU state to memory buffer, including the EIP of the last FPU instruction.
+
+SF2 passes as expected.
+DR passes. (But would fail if this was an FXSAVE).
+Pin fails.
+

@@ -1,0 +1,9 @@
+The idea beyond this sample is that if two blocks are associated with a page with the PAGE_GUARD
+protection, the consumation of the guard page by the first executed block must lead to a behavior
+in which the second block does not generate the exception.
+
+Note: both Pin and DR seem to have difficulties with handling PAGE_GUARD protection.
+So in a way, this sample is already unnecessarily complex for what they can do.
+
+Both Pin and DR fail, because EXCEPTION_GUARD_PAGE never comes upon the execution
+of the first block and so there is nothing to consume.

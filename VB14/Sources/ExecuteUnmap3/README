@@ -1,0 +1,7 @@
+In this sample, a memory buffer is first allocated with
+PAGE_READWRITE protection and the block code is copied to it.
+The protection is then changed to PAGE_GUARD with PAGE_EXECUTE_READ
+and the block is executed. Normally, an EXCEPTION_GUARD_PAGE
+will be generated.
+
+Pin passes this test, but DR does not (crashes).

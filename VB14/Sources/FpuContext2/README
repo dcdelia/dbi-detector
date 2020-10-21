@@ -1,0 +1,7 @@
+Like FpuContext1, just more difficult thanks to the operand
+size override. Now the saved EIP value that needs to be virtualized
+is only the lower 16-bits of the actual EIP of the last FPU
+instruction.
+
+Pin continues to fail.
+DR begins to fail.
