@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "detect_by_event_handles", "detect_by_event_handles\detect_by_event_handles.vcproj", "{F4A910D3-749A-4DC4-9970-B99DB0748E20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A910D3-749A-4DC4-9970-B99DB0748E20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F4A910D3-749A-4DC4-9970-B99DB0748E20}.Debug|Win32.Build.0 = Debug|Win32
+		{F4A910D3-749A-4DC4-9970-B99DB0748E20}.Release|Win32.ActiveCfg = Release|Win32
+		{F4A910D3-749A-4DC4-9970-B99DB0748E20}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

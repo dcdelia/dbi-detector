@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "detect_by_searching_patterns", "detect_by_searching_patterns\detect_by_searching_patterns.vcproj", "{5E2ED3A7-B5D3-4C9C-A688-B909B554A69E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E2ED3A7-B5D3-4C9C-A688-B909B554A69E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E2ED3A7-B5D3-4C9C-A688-B909B554A69E}.Debug|Win32.Build.0 = Debug|Win32
+		{5E2ED3A7-B5D3-4C9C-A688-B909B554A69E}.Release|Win32.ActiveCfg = Release|Win32
+		{5E2ED3A7-B5D3-4C9C-A688-B909B554A69E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
