@@ -8,7 +8,7 @@ int main() {
     __try {
 		CloseHandle((HANDLE)0x99999999ULL);
 	}
-	__except (EXCEPTION_EXECUTE_HANDLER) {
+	__except (1) { // EXCEPTION_EXECUTE_HANDLER
 		printf("Thanks, I can detect you.\n");;
 	}
     return 0;
